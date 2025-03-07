@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click the Box Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Click the Box Game</h1>
+    <p>Click the moving box to score points before time runs out!</p>
+    <h2>Score: <span id="score">0</span></h2>
+    <h2>Time Left: <span id="timer">10</span> sec</h2>
+    <div id="gameContainer">
+        <div id="box"></div>
+    </div>
+    <h2 id="gameOver" style="display: none;">Game Over!</h2>
+    <button id="restartBtn" style="display: none;">Restart Game</button>
+    <script src="script.js"></script>
+</body>
+</html>
